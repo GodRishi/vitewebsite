@@ -109,23 +109,23 @@ export const PROJECTS: Record<Language, Project[]> = {
     },
     {
       id: '3',
-      title: 'Tech Review Reveal',
-      shortDesc: 'Complex 3D motion graphics and overlays.',
+      title: 'Wedding Video Edit',
+      shortDesc: 'Expertise in editing cinematic wedding',
       type: 'Tech Edit',
-      duration: '45s',
-      engagement: '+15% Subs',
+      duration: '1H',
+      engagement: '+53% Attention',
       thumbnail: 'https://picsum.photos/seed/edit3/800/450',
       videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
       beforeImg: 'https://picsum.photos/seed/before3/800/450?grayscale',
       afterImg: 'https://picsum.photos/seed/after3/800/450',
-      tools: ['After Effects', 'Cinema 4D'],
+      tools: ['Premiere Pro'],
       process: {
-        goal: 'Showcase product features through dynamic visuals.',
-        challenges: 'Synthesizing technical specs into visual metaphors.',
-        results: 'Boosted subscriber growth by 15% during the campaign.',
+        goal: 'Showcase client dynamic visuals.',
+        challenges: 'Synthesizing raw footage into visual metaphors.',
+        results: 'Boosted attention growth by 53%.',
       },
       metrics: [
-        { label: 'Sub Growth', value: '15%' },
+        { label: 'Attention Growth', value: '53%' },
         { label: 'Likes', value: '45k' }
       ]
     }
@@ -177,23 +177,23 @@ export const PROJECTS: Record<Language, Project[]> = {
     },
     {
       id: '3',
-      title: 'Tech Review Reveal',
-      shortDesc: 'Complex 3D motion graphics aur overlays.',
-      type: 'Tech Edit',
-      duration: '45s',
-      engagement: '+15% Subs',
+      title: 'Wedding Video Edit',
+      shortDesc: 'Cinematic wedding videos ko professionally edit karne ka expertise.',
+      type: 'Wedding Edit',
+      duration: '1H',
+      engagement: '+53% Attention',
       thumbnail: 'https://picsum.photos/seed/edit3/800/450',
       videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
       beforeImg: 'https://picsum.photos/seed/before3/800/450?grayscale',
       afterImg: 'https://picsum.photos/seed/after3/800/450',
-      tools: ['After Effects', 'Cinema 4D'],
+      tools: ['Premiere Pro'],
       process: {
-        goal: 'Product features ko visuals ke through dikhana.',
-        challenges: 'Technical specs ko visual metaphors mein convert karna.',
-        results: 'Campaign ke dauran subscribers 15% badh gaye.',
+        goal: 'Client ke liye dynamic aur visually powerful wedding visuals showcase karna.',
+        challenges: 'aw wedding footage ko cinematic storytelling aur visual metaphors mein convert karna.',
+        results: 'Audience attention mein 53% ka strong boost.',
       },
       metrics: [
-        { label: 'Sub Growth', value: '15%' },
+        { label: 'Attention Growth', value: '53%' },
         { label: 'Likes', value: '45k' }
       ]
     }
@@ -245,23 +245,23 @@ export const PROJECTS: Record<Language, Project[]> = {
     },
     {
       id: '3',
-      title: 'টেক রিভিউ রিভীল',
-      shortDesc: 'জটিল 3D মোশন গ্রাফিক্স এবং ওভারলে।',
-      type: 'টেক এডিট',
-      duration: '৪৫ সেকেন্ড',
-      engagement: '+১৫% সাবস্ক্রাইবার',
+      title: 'বিয়ের ভিডিও এডিট',
+      shortDesc: 'সিনেমাটিক বিয়ের ভিডিও পেশাদারভাবে এডিট করার বিশেষ দক্ষতা।',
+      type: 'ওয়েডিং এডিট',
+      duration: '১ ঘণ্টা',
+      engagement: '+৫৩% দর্শকের মনোযোগ বৃদ্ধি',
       thumbnail: 'https://picsum.photos/seed/edit3/800/450',
       videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
       beforeImg: 'https://picsum.photos/seed/before3/800/450?grayscale',
       afterImg: 'https://picsum.photos/seed/after3/800/450',
-      tools: ['After Effects', 'Cinema 4D'],
+      tools: ['Premiere Pro'],
       process: {
-        goal: 'ভিজ্যুয়ালের মাধ্যমে পণ্যের বৈশিষ্ট্যগুলো ফুটিয়ে তোলা।',
-        challenges: 'প্রযুক্তিগত বৈশিষ্ট্যগুলোকে ভিজ্যুয়াল মেটাফোরে রূপান্তর করা।',
-        results: 'ক্যাম্পেইন চলাকালীন ১৫% সাবস্ক্রাইবার বৃদ্ধি পেয়েছে।',
+        goal: 'ক্লায়েন্টের জন্য ডায়নামিক ও দৃষ্টিনন্দন বিয়ের ভিজ্যুয়াল উপস্থাপন করা।',
+        challenges: 'কাঁচা বিয়ের ফুটেজকে সিনেমাটিক গল্প বলার মাধ্যমে অর্থবহ ভিজ্যুয়ালে রূপান্তর করা।',
+        results: 'দর্শকের মনোযোগে ৫৩% পর্যন্ত উল্লেখযোগ্য বৃদ্ধিে।',
       },
       metrics: [
-        { label: 'সাব গ্রোথ', value: '১৫%' },
+        { label: 'মনোযোগ বৃদ্ধি', value: '৫৩%' },
         { label: 'লাইক', value: '৪৫k' }
       ]
     }
