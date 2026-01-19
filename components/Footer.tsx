@@ -13,7 +13,7 @@ const Footer: React.FC<FooterProps> = ({ lang, content }) => {
   const iframeRef = useRef<HTMLIFrameElement>(null);
   const formRef = useRef<HTMLFormElement>(null);
 
-  const tools = ['Premiere Pro', 'After Effects', 'DaVinci Resolve', 'Photoshop', 'Illustrator', 'Cinema 4D'];
+  const tools = ['Premiere Pro', 'After Effects', 'DaVinci Resolve', 'Photoshop', 'Illustrator'];
   
   const getTimeline = () => {
     switch(lang) {
