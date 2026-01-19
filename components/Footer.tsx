@@ -22,21 +22,21 @@ const Footer: React.FC<FooterProps> = ({ lang, content }) => {
           { step: 'ডিসকভারি', desc: 'আপনার ব্র্যান্ডের ভিশন এবং লক্ষ্য শ্রোতা বোঝা।' },
           { step: 'ইনজেশন', desc: 'র ফুটেজ বা অ্যাসেট সুরক্ষিতভাবে সংগ্রহ করা।' },
           { step: 'কিউরেশন', desc: 'রাফ কাট, রিদম ম্যাচিং এবং সেরা শট নির্বাচন।' },
-          { step: 'পলিশিং', desc: 'VFX, কালার গ্রেডিং এবং সাউন্ড ইঞ্জিনিয়ারিং।' },
+          { step: 'পলিশিং', desc: 'কালার গ্রেডিং এবং সাউন্ড ইঞ্জিনিয়ারিং।' },
         ];
       case 'HI':
         return [
           { step: 'Discovery', desc: 'Aapke brand vision aur target audience ko samajhna.' },
           { step: 'Ingestion', desc: 'Raw assets ko secure tarike se organize karna.' },
           { step: 'Curation', desc: 'Rough cuts aur story selection ka kaam.' },
-          { step: 'Polishing', desc: 'VFX, color grading aur final sound engineering.' },
+          { step: 'Polishing', desc: 'Color grading aur final sound engineering.' },
         ];
       default:
         return [
           { step: 'Discovery', desc: 'Understanding your brand vision and target audience.' },
           { step: 'Ingestion', desc: 'Secure transfer and organization of raw assets.' },
           { step: 'Curation', desc: 'Rough cuts, rhythm matching, and story selection.' },
-          { step: 'Polishing', desc: 'VFX, color grading, and final sound engineering.' },
+          { step: 'Polishing', desc: 'Color grading, and final sound engineering.' },
         ];
     }
   };
@@ -220,13 +220,12 @@ const Footer: React.FC<FooterProps> = ({ lang, content }) => {
       <div className="max-w-7xl mx-auto px-6 mt-24 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
         <div className="flex items-center gap-2">
           <div className="w-6 h-6 bg-gradient-to-br from-orange-500 to-cyan-500 rounded-sm"></div>
-          <span className="text-sm font-black tracking-tighter">EDIT.STUDIO © 2026</span>
+          <span className="text-sm font-black tracking-tighter">Digital Dream Creation © 2026</span>
         </div>
 
         <div className="flex gap-8 text-[10px] font-bold uppercase tracking-widest text-gray-500">
           <a href="#" className="hover:text-white transition-colors">YouTube</a>
           <a href="#" className="hover:text-white transition-colors">Instagram</a>
-          <a href="#" className="hover:text-white transition-colors">Behance</a>
           <a href="#" className="hover:text-white transition-colors">LinkedIn</a>
         </div>
 
