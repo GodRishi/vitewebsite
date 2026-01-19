@@ -270,8 +270,8 @@ export const PROJECTS: Record<Language, Project[]> = {
 
 export const TESTIMONIALS: Record<Language, Testimonial[]> = {
   EN: [
-    { id: '1', name: 'Alex Rivera', role: 'YouTube Creator (2M Subs)', text: "The editing quality completely transformed my channel's growth. Fast, professional, and creative.", logo: 'https://picsum.photos/seed/logo1/100/100' },
-    { id: '2', name: 'Sarah Chen', role: 'Marketing Director', text: "Best ad performance we've had in years. The motion graphics are top-tier.", logo: 'https://picsum.photos/seed/logo2/100/100' },
+    { id: '1', name: 'Sumit Roy', role: 'Videographer', text: "The editing quality completely transformed my client rating. Fast, professional, and creative.", logo: 'https://picsum.photos/seed/logo1/100/100' },
+    { id: '2', name: 'Arpan Bhowmick', role: 'Marketing Director', text: "Best reel edit I had in years! Really Good!", logo: 'https://picsum.photos/seed/logo2/100/100' },
     { id: '3', name: 'Marco Silva', role: 'Music Producer', text: "Captured the vibe of the music perfectly. Highly recommend for any music video project.", logo: 'https://picsum.photos/seed/logo3/100/100' }
   ],
   HI: [
