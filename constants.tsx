@@ -111,7 +111,7 @@ export const PROJECTS: Record<Language, Project[]> = {
       id: '3',
       title: 'Wedding Video Edit',
       shortDesc: 'Expertise in editing cinematic wedding',
-      type: 'Tech Edit',
+      type: 'Wedding Edit',
       duration: '1H',
       engagement: '+53% Attention',
       thumbnail: 'https://picsum.photos/seed/edit3/800/450',
