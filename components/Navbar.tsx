@@ -1,6 +1,6 @@
-
 import React from 'react';
 import { Language } from '../types';
+import logo from "../components/cropped_circle_image.png";
 
 interface NavbarProps {
   lang: Language;
@@ -11,10 +11,14 @@ const Navbar: React.FC<NavbarProps> = ({ lang, setLang }) => {
   return (
     <nav className="fixed top-0 left-0 w-full z-40 bg-[#1a1a1a]/80 backdrop-blur-md border-b border-white/5">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-        <div className="flex items-center gap-2 group cursor-pointer">
-          <div className="w-8 h-8 bg-gradient-to-br from-orange-500 to-cyan-500 rounded-sm transform group-hover:rotate-180 transition-transform duration-700"></div>
-          <span className="text-xl font-black tracking-tighter">DIGITAL DREAM CREATION</span>
+        <div className="flex items-center gap-3 group cursor-pointer">
+            <img src={logo} alt="Logo"
+              className="h-9 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+            />
+            <span className="text-xl font-black tracking-tighter">DIGITAL DREAM CREATION
+            </span>
         </div>
+
 
         <div className="hidden lg:flex items-center gap-8 uppercase text-xs font-bold tracking-widest">
           <a href="#projects" className="hover:text-cyan-400 transition-colors">Projects</a>
