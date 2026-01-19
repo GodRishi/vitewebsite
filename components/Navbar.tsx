@@ -13,7 +13,7 @@ const Navbar: React.FC<NavbarProps> = ({ lang, setLang }) => {
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <div className="flex items-center gap-2 group cursor-pointer">
           <div className="w-8 h-8 bg-gradient-to-br from-orange-500 to-cyan-500 rounded-sm transform group-hover:rotate-180 transition-transform duration-700"></div>
-          <span className="text-xl font-black tracking-tighter">EDIT.STUDIO</span>
+          <span className="text-xl font-black tracking-tighter">DIGITAL DREAM CREATION</span>
         </div>
 
         <div className="hidden lg:flex items-center gap-8 uppercase text-xs font-bold tracking-widest">
